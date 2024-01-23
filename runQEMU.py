@@ -3,7 +3,7 @@ import os
 
 class QEMU:
     def runQEMU(self):
-        parser = argparse.ArgumentParser(description='Create login login credetials for user rsa_auth')
+        parser = argparse.ArgumentParser(description='get params needed to run QEMU vm')
         parser.add_argument('QEMU_path', help='path to QEMU executable')
         parser.add_argument('image_path', help='path to QEMU image')
         parser.add_argument('format', help='image format')
